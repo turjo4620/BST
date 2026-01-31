@@ -83,11 +83,9 @@ int main(){
     // Check if there are two elements in the BST
     // that added to "target"
     if (findTarget(root, target))
-        cout << "True
-";
+        cout << "True";
     else
-        cout << "False
-";
+        cout << "False";
 
     return 0;
 }
